@@ -35,6 +35,9 @@ public class FXMLTablaPeriodicaController implements Initializable {
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
+        
+        configurarOrdenamientoComboBox();
+        
         ObservableList<ContenedorElemento> elementosTabla = FXCollections.observableArrayList();
         
         tabla_gridPane.setMinSize(1,1);
@@ -64,5 +67,12 @@ public class FXMLTablaPeriodicaController implements Initializable {
         System.out.println("Se presionó " + elemento.getNumeroAtomico());
     }
     
+    public void configurarOrdenamientoComboBox(){
+        ObservableList<String> tiposOrdenamiento = FXCollections.observableArrayList();
+        tiposOrdenamiento.addAll("Número atómico", "Símbolo", "Nombre");
+        ordenamientoComboBox.getItems().clear();   
+        ordenamientoComboBox.getItems().addAll(tiposOrdenamiento);
+        ordenamientoComboBox.getSelectionModel().selectFirst();
+    }
     
 }
