@@ -6,21 +6,21 @@ package tabla.periodica;
  */
 public class PropiedadesQuimicas {
 
-    String nombre;
-    String simbolo;
-    double numeroMasico;
-    int numeroAtomico;
-    String familia;
-    int grupo;
-    int periodo;
-    int bloque;
-    double puntoFusion;
-    double puntoEbullicion;
+    private String nombre;
+    private String simbolo;
+    private double numeroMasico;
+    private int numeroAtomico;
+    private String familia;
+    private int grupo;
+    private int periodo;
+    private String bloque;
+    private double puntoFusion;
+    private double puntoEbullicion;
 
     public PropiedadesQuimicas() {
     }
 
-    public PropiedadesQuimicas(String nombre, String simbolo, double numeroMasico, int numeroAtomico, String familia, int grupo, int periodo, int bloque, double puntoFusion, double puntoEbullicion) {
+    public PropiedadesQuimicas(String nombre, String simbolo, double numeroMasico, int numeroAtomico, String familia, int grupo, int periodo, String bloque, double puntoFusion, double puntoEbullicion) {
         this.nombre = nombre;
         this.simbolo = simbolo;
         this.numeroMasico = numeroMasico;
@@ -89,11 +89,11 @@ public class PropiedadesQuimicas {
         this.periodo = periodo;
     }
 
-    public int getBloque() {
+    public String getBloque() {
         return bloque;
     }
 
-    public void setBloque(int bloque) {
+    public void setBloque(String bloque) {
         this.bloque = bloque;
     }
 
