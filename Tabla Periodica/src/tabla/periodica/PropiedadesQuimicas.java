@@ -8,19 +8,19 @@ public class PropiedadesQuimicas {
 
     String nombre;
     String simbolo;
-    long numeroMasico;
+    double numeroMasico;
     int numeroAtomico;
     String familia;
     int grupo;
     int periodo;
-    int bloque;
+    String bloque;
     double puntoFusion;
     double puntoEbullicion;
 
     public PropiedadesQuimicas() {
     }
 
-    public PropiedadesQuimicas(String nombre, String simbolo, long numeroMasico, int numeroAtomico, String familia, int grupo, int periodo, int bloque, double puntoFusion, double puntoEbullicion) {
+    public PropiedadesQuimicas(String nombre, String simbolo, double numeroMasico, int numeroAtomico, String familia, int grupo, int periodo, String bloque, double puntoFusion, double puntoEbullicion) {
         this.nombre = nombre;
         this.simbolo = simbolo;
         this.numeroMasico = numeroMasico;
@@ -49,11 +49,11 @@ public class PropiedadesQuimicas {
         this.simbolo = simbolo;
     }
 
-    public long getNumeroMasico() {
+    public double getNumeroMasico() {
         return numeroMasico;
     }
 
-    public void setNumeroMasico(long numeroMasico) {
+    public void setNumeroMasico(double numeroMasico) {
         this.numeroMasico = numeroMasico;
     }
 
@@ -89,11 +89,11 @@ public class PropiedadesQuimicas {
         this.periodo = periodo;
     }
 
-    public int getBloque() {
+    public String getBloque() {
         return bloque;
     }
 
-    public void setBloque(int bloque) {
+    public void setBloque(String bloque) {
         this.bloque = bloque;
     }
 

@@ -13,42 +13,41 @@ import javafx.scene.web.WebView;
  * @author geral
  */
 public class Multimedia {
-    WebView videoElemento;
-    ImageView imagenAspecto;
-    ImageView imagenAtomo;
+    private String videoElemento;
+    private String imagenAspecto;
+    private String imagenAtomo;
 
     public Multimedia() {
     }
 
-    public Multimedia(WebView videoElemento, ImageView imagenAspecto, ImageView imagenAtomo) {
+    public Multimedia(String videoElemento, String imagenAspecto, String imagenAtomo) {
         this.videoElemento = videoElemento;
         this.imagenAspecto = imagenAspecto;
         this.imagenAtomo = imagenAtomo;
     }
 
-    public WebView getVideoElemento() {
+    public String getVideoElemento() {
         return videoElemento;
     }
 
-    public void setVideoElemento(WebView videoElemento) {
+    public void setVideoElemento(String videoElemento) {
         this.videoElemento = videoElemento;
     }
 
-    public ImageView getImagenAspecto() {
+    public String getImagenAspecto() {
         return imagenAspecto;
     }
 
-    public void setImagenAspecto(ImageView imagenAspecto) {
+    public void setImagenAspecto(String imagenAspecto) {
         this.imagenAspecto = imagenAspecto;
     }
 
-    public ImageView getImagenAtomo() {
+    public String getImagenAtomo() {
         return imagenAtomo;
     }
 
-    public void setImagenAtomo(ImageView imagenAtomo) {
+    public void setImagenAtomo(String imagenAtomo) {
         this.imagenAtomo = imagenAtomo;
     }
-
 
 }

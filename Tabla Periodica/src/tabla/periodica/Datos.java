@@ -8,10 +8,10 @@ import java.util.ArrayList;
  */
 public class Datos {
     
-    String resenaHistorica;
-    boolean isIsotopo;
-    Produccion produccion;
-    ArrayList<String> listaUsos;
+    private String resenaHistorica;
+    private boolean isIsotopo;
+    private Produccion produccion;
+    private ArrayList<String> listaUsos;
 
     public Datos() {
     }
