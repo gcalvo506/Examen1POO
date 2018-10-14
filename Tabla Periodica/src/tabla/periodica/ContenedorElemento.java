@@ -47,7 +47,8 @@ public class ContenedorElemento extends VBox {
         setMaxWidth(dimensiones);
         setAlignment(Pos.CENTER);
         String borderCSS = "-fx-border-color: black;\n" +
-                   "-fx-border-width: 1;\n";
+                   "-fx-border-width: 1;\n" +
+                   "-fx-background-color: " + color + ";\n";
         setStyle(borderCSS);
     }
     

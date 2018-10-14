@@ -35,10 +35,11 @@ public class FXMLTablaPeriodicaController implements Initializable {
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        
+        Manager.cargarElementos();
         configurarOrdenamientoComboBox();
         
         cargarTablaElementos();
+        
         
     }
 
@@ -66,10 +67,12 @@ public class FXMLTablaPeriodicaController implements Initializable {
         
         int cantElementos = Manager.getListaElementos().size();
         int numeroElementoActual = 0;
+        
+        Manager.ordenarListaPorSimbolo();
                
-        for(int i = 0; i < 18; i++){
+        for(int i = 0; i < 10; i++){
             
-            for(int j = 0; j < 10; j++){
+            for(int j = 0; j < 18; j++){
                 
                 ContenedorElemento elemento = null;
                 if(numeroElementoActual < cantElementos){
@@ -81,17 +84,16 @@ public class FXMLTablaPeriodicaController implements Initializable {
                     
                     elemento = new ContenedorElemento(numeroAtomico, simbolo, nombre, color);
                     elemento.setOnMouseClicked(e -> abrirVentanaInfo(e));
+                    numeroElementoActual++;
                 }else{
                     elemento = new ContenedorElemento("", "", "", "#ffffff");
                 }
                 
                 
                 GridPane.setHgrow(elemento, Priority.NEVER);
-                GridPane.setVgrow(elemento, Priority.NEVER);
-                
-                
+                GridPane.setVgrow(elemento, Priority.NEVER);  
 
-                GridPane.setConstraints(elemento, i, j);
+                GridPane.setConstraints(elemento, j, i);
                 tabla_gridPane.getChildren().add(elemento);
             }
         }
