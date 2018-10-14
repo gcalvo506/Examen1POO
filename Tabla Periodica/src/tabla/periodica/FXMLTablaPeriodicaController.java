@@ -38,25 +38,7 @@ public class FXMLTablaPeriodicaController implements Initializable {
         
         configurarOrdenamientoComboBox();
         
-        ObservableList<ContenedorElemento> elementosTabla = FXCollections.observableArrayList();
-        
-        tabla_gridPane.setMinSize(1,1);
-        tabla_gridPane.setHgap(0);
-        tabla_gridPane.setVgap(0);
-               
-        for(int i = 0; i < 18; i++){
-            
-            for(int j = 0; j < 10; j++){
-                ContenedorElemento elemento = new ContenedorElemento(String.valueOf(i), "H", "Hidrogeno", "#c4c4c4");
-                GridPane.setHgrow(elemento, Priority.NEVER);
-                GridPane.setVgrow(elemento, Priority.NEVER);
-                
-                elemento.setOnMouseClicked(e -> abrirVentanaInfo(e));
-
-                GridPane.setConstraints(elemento, i, j);
-                tabla_gridPane.getChildren().add(elemento);
-            }
-        }
+        cargarTablaElementos();
         
     }
 
@@ -73,6 +55,46 @@ public class FXMLTablaPeriodicaController implements Initializable {
         ordenamientoComboBox.getItems().clear();   
         ordenamientoComboBox.getItems().addAll(tiposOrdenamiento);
         ordenamientoComboBox.getSelectionModel().selectFirst();
+    }
+    
+    public void cargarTablaElementos(){
+        ObservableList<ContenedorElemento> elementosTabla = FXCollections.observableArrayList();
+        
+        tabla_gridPane.setMinSize(1,1);
+        tabla_gridPane.setHgap(0);
+        tabla_gridPane.setVgap(0);
+        
+        int cantElementos = Manager.getListaElementos().size();
+        int numeroElementoActual = 0;
+               
+        for(int i = 0; i < 18; i++){
+            
+            for(int j = 0; j < 10; j++){
+                
+                ContenedorElemento elemento = null;
+                if(numeroElementoActual < cantElementos){
+                    
+                    String numeroAtomico = String.valueOf(Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getNumeroAtomico());
+                    String simbolo = Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getSimbolo();
+                    String nombre = Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getNombre();
+                    String color = Manager.getListaElementos().get(numeroElementoActual).getColor();
+                    
+                    elemento = new ContenedorElemento(numeroAtomico, simbolo, nombre, color);
+                    elemento.setOnMouseClicked(e -> abrirVentanaInfo(e));
+                }else{
+                    elemento = new ContenedorElemento("", "", "", "#ffffff");
+                }
+                
+                
+                GridPane.setHgrow(elemento, Priority.NEVER);
+                GridPane.setVgrow(elemento, Priority.NEVER);
+                
+                
+
+                GridPane.setConstraints(elemento, i, j);
+                tabla_gridPane.getChildren().add(elemento);
+            }
+        }
     }
     
 }

@@ -21,6 +21,10 @@ import org.json.simple.parser.ParseException;
 public abstract class Manager {
 
     private static ArrayList<Elemento> listaElementos = new ArrayList();
+    
+    static{
+        cargarElementos();
+    }
 
     public static ArrayList<Elemento> getListaElementos() {
         return listaElementos;
