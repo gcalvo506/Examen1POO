@@ -88,7 +88,7 @@
 	},
 	{
 		"Nombre": "Boro",
-		"Símbolo": "B",
+		"Simbolo": "B",
 		"NumMasico": "10.811",
 		"NumAtomico": "5",
 		"Familia": "Metaloides",
