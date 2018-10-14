@@ -28,7 +28,7 @@ public class ContenedorElemento extends VBox {
         nombreLabel = new Label(nombre);
         nombreLabel.setScaleX(escalaNombre);
         nombreLabel.setScaleY(escalaNombre);
-        nombreLabel.setMinWidth(USE_PREF_SIZE);
+        //nombreLabel.setMinWidth(USE_PREF_SIZE);  //Esta linea es para que no se corten los nombres
         
         double escalaSimbolo = 1.2;
         simboloLabel = new Label(simbolo);
@@ -46,10 +46,19 @@ public class ContenedorElemento extends VBox {
         setMaxHeight(dimensiones);
         setMaxWidth(dimensiones);
         setAlignment(Pos.CENTER);
-        String borderCSS = "-fx-border-color: black;\n" +
+        
+        String css = "";
+        
+        if (nombre.equals("")){
+            css = "-fx-background-color: " + color + ";\n";
+        } else {
+            css = "-fx-border-color: black;\n" +
                    "-fx-border-width: 1;\n" +
                    "-fx-background-color: " + color + ";\n";
-        setStyle(borderCSS);
+        }
+        
+        
+        setStyle(css);
     }
     
     public String getNombre(){

@@ -37,7 +37,7 @@ public class FXMLTablaPeriodicaController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         Manager.cargarElementos();
         configurarOrdenamientoComboBox();
-        
+        Manager.ordenarListaPorNumeroAtomico();
         cargarTablaElementos();
         
         
@@ -65,6 +65,8 @@ public class FXMLTablaPeriodicaController implements Initializable {
         tabla_gridPane.setHgap(0);
         tabla_gridPane.setVgap(0);
         
+        String colorPorDefecto = "#f4f4f4";
+        
         int cantElementos = Manager.getListaElementos().size();
         int numeroElementoActual = 0;
         
@@ -76,16 +78,31 @@ public class FXMLTablaPeriodicaController implements Initializable {
                 ContenedorElemento elemento = null;
                 if(numeroElementoActual < cantElementos){
                     
-                    String numeroAtomico = String.valueOf(Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getNumeroAtomico());
+                    if(i == 0 && (j > 0 && j < 17)){
+                        elemento = new ContenedorElemento("", "", "", colorPorDefecto);
+                    } else if ((i == 1 || i == 2) && (j > 1 && j < 12)){
+                        elemento = new ContenedorElemento("", "", "", colorPorDefecto);
+                    } else {
+                        String numeroAtomico = String.valueOf(Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getNumeroAtomico());
+                        String simbolo = Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getSimbolo();
+                        String nombre = Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getNombre();
+                        String color = Manager.getListaElementos().get(numeroElementoActual).getColor();
+
+                        elemento = new ContenedorElemento(numeroAtomico, simbolo, nombre, color);
+                        elemento.setOnMouseClicked(e -> abrirVentanaInfo(e));
+                        numeroElementoActual++;
+                    }
+                    
+                    /*String numeroAtomico = String.valueOf(Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getNumeroAtomico());
                     String simbolo = Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getSimbolo();
                     String nombre = Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getNombre();
                     String color = Manager.getListaElementos().get(numeroElementoActual).getColor();
                     
                     elemento = new ContenedorElemento(numeroAtomico, simbolo, nombre, color);
                     elemento.setOnMouseClicked(e -> abrirVentanaInfo(e));
-                    numeroElementoActual++;
+                    numeroElementoActual++;*/
                 }else{
-                    elemento = new ContenedorElemento("", "", "", "#ffffff");
+                    elemento = new ContenedorElemento("", "", "", colorPorDefecto);
                 }
                 
                 
