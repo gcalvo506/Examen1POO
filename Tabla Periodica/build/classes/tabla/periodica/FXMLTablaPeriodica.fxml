@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="895.0" prefWidth="1264.0" stylesheets="@estilos.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="tabla.periodica.FXMLTablaPeriodicaController">
+<AnchorPane id="AnchorPane" prefHeight="895.0" prefWidth="1264.0" stylesheets="@estilos.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tabla.periodica.FXMLTablaPeriodicaController">
    <children>
       <Label alignment="CENTER" layoutX="292.0" layoutY="46.0" prefHeight="76.0" prefWidth="496.0" text="Tabla periódica de los elementos">
          <font>
@@ -20,7 +20,7 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <JFXComboBox fx:id="ordenamientoComboBox" labelFloat="true" layoutX="193.0" layoutY="118.0" prefHeight="26.0" prefWidth="167.0" />
+      <JFXComboBox fx:id="ordenamientoComboBox" labelFloat="true" layoutX="193.0" layoutY="118.0" onAction="#ordenarElementosTabla" prefHeight="26.0" prefWidth="167.0" />
       <GridPane fx:id="tabla_gridPane" layoutX="45.0" layoutY="167.0" prefHeight="650.0" prefWidth="1170.0">
         <columnConstraints>
           <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="100.0" />

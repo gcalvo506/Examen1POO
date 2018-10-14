@@ -68,7 +68,6 @@ public class FXMLTablaPeriodicaController implements Initializable {
         int cantElementos = Manager.getListaElementos().size();
         int numeroElementoActual = 0;
         
-        Manager.ordenarListaPorSimbolo();
                
         for(int i = 0; i < 10; i++){
             
@@ -97,6 +96,20 @@ public class FXMLTablaPeriodicaController implements Initializable {
                 tabla_gridPane.getChildren().add(elemento);
             }
         }
+    }
+
+    @FXML
+    private void ordenarElementosTabla(ActionEvent event) {
+        String tipoOrdenamiento = ordenamientoComboBox.getValue();
+        
+        if (tipoOrdenamiento.equals("Número atómico")){
+            Manager.ordenarListaPorNumeroAtomico();
+        } else if(tipoOrdenamiento.equals("Símbolo")){
+            Manager.ordenarListaPorSimbolo();
+        } else {
+            Manager.ordenarListaPorNombre();;
+        }
+        cargarTablaElementos();
     }
     
 }

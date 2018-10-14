@@ -99,9 +99,9 @@ public abstract class Manager {
             for (int i = 0; i < listaElementos.size() - 1; i++) {
                 if(listaElementos.get(i).getPropiedadesQuimicas().getNumeroAtomico() > 
                         listaElementos.get(i + 1).getPropiedadesQuimicas().getNumeroAtomico()){
-                    int temp = listaElementos.get(i).getPropiedadesQuimicas().getNumeroAtomico();
-                    listaElementos.get(i).getPropiedadesQuimicas().setNumeroAtomico(listaElementos.get(i + 1).getPropiedadesQuimicas().getNumeroAtomico());
-                    listaElementos.get(i + 1).getPropiedadesQuimicas().setNumeroAtomico(temp);
+                    Elemento temp = listaElementos.get(i);
+                    listaElementos.set(i, listaElementos.get(i+1));
+                    listaElementos.set(i + 1, temp);
                     isOrdenado = false;
                 }
                 
@@ -116,9 +116,9 @@ public abstract class Manager {
             isOrdenado = true;
             for (int i = 0; i < listaElementos.size() - 1; i++) {
                 if(listaElementos.get(i).getPropiedadesQuimicas().getNombre().compareTo(listaElementos.get(i + 1).getPropiedadesQuimicas().getNombre()) > 0){
-                    String temp = listaElementos.get(i).getPropiedadesQuimicas().getNombre();
-                    listaElementos.get(i).getPropiedadesQuimicas().setNombre(listaElementos.get(i + 1).getPropiedadesQuimicas().getNombre());
-                    listaElementos.get(i + 1).getPropiedadesQuimicas().setNombre(temp);
+                    Elemento temp = listaElementos.get(i);
+                    listaElementos.set(i, listaElementos.get(i+1));
+                    listaElementos.set(i + 1, temp);
                     isOrdenado = false;
                 }
                 
@@ -133,9 +133,9 @@ public abstract class Manager {
             isOrdenado = true;
             for (int i = 0; i < listaElementos.size() - 1; i++) {
                 if(listaElementos.get(i).getPropiedadesQuimicas().getSimbolo().compareTo(listaElementos.get(i + 1).getPropiedadesQuimicas().getSimbolo()) > 0){
-                    String temp = listaElementos.get(i).getPropiedadesQuimicas().getSimbolo();
-                    listaElementos.get(i).getPropiedadesQuimicas().setSimbolo(listaElementos.get(i + 1).getPropiedadesQuimicas().getSimbolo());
-                    listaElementos.get(i + 1).getPropiedadesQuimicas().setSimbolo(temp);
+                    Elemento temp = listaElementos.get(i);
+                    listaElementos.set(i, listaElementos.get(i+1));
+                    listaElementos.set(i + 1, temp);
                     isOrdenado = false;
                 }
                 
