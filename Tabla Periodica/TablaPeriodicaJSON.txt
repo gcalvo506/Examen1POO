@@ -785,7 +785,7 @@
 		"MetodoObtencion": "No se tienen datos.",
 		"LugarDeObtencion": "No se tienen datos.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoKripton.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/il4OOY7Zseg\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoKripton.jpg",
 		"ImagenAtomo": "atomoKripton.jpg",
 		"Color":"#95E2F8"
@@ -807,7 +807,7 @@
 		"MetodoObtencion": "No se encuentra información",
 		"LugarDeObtencion": "Es hallado frecuentemente en minerales lepidolíticos como los existentes en Rodesia.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoCesio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/5aD6HwUE2c0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoCesio.jpg",
 		"ImagenAtomo": "atomoCesio.jpg",
 		"Color":"#FEC58E"
@@ -829,7 +829,7 @@
 		"MetodoObtencion": "No se encuentra información",
 		"LugarDeObtencion": "No se encuentra información",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoBario.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/9srJdQU3NOo\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoBario.jpg",
 		"ImagenAtomo": "atomoBario.jpg",
 		"Color":"#FDE38F"
@@ -851,7 +851,7 @@
 		"MetodoObtencion": "Mediante reducción del fluoruro de lantano anhidro con calcio",
 		"LugarDeObtencion": "Existe solo en minerales a causa de su reactividad química",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoLantano.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/RrjloqyMbkE\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoLantano.jpg",
 		"ImagenAtomo": "atomoLantano.jpg",
 		"Color": "#FEAB85"
@@ -873,7 +873,7 @@
 		"MetodoObtencion": "No se tiene información",
 		"LugarDeObtencion": "Existe solo en minerales a causa de su reactividad química",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoCerio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/frD3126ry8o\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoCerio.jpg",
 		"ImagenAtomo": "atomoCerio.jpg",
 		"Color": "#FEAB85"
@@ -895,7 +895,7 @@
 		"MetodoObtencion": "No se tiene información",
 		"LugarDeObtencion": "Existe solo en minerales a causa de su reactividad química",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoPraseodimio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/IL06CzXF3ns\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoPraseodimio.jpg",
 		"ImagenAtomo": "atomoPraseodimio.jpg",
 		"Color": "#FEAB85"
@@ -917,7 +917,7 @@
 		"MetodoObtencion": "No se tiene información",
 		"LugarDeObtencion": "Existe solo en minerales a causa de su reactividad química",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoNeodimio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/PBbl-3_R3mk\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoNeodimio.jpg",
 		"ImagenAtomo": "atomoNeodimio.jpg",
 		"Color": "#FEAB85"
@@ -939,7 +939,7 @@
 		"MetodoObtencion": "No se tiene información.",
 		"LugarDeObtencion": "Existe solo en minerales a causa de su reactividad química",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoPrometio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/px52fxITTrw\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoPrometio.jpg",
 		"ImagenAtomo": "atomoPrometio.jpg",
 		"Color": "#FEAB85"
@@ -961,7 +961,7 @@
 		"MetodoObtencion": "Es obtenido principalmente a través de un proceso de intercambio iónico de la arena de monacita",
 		"LugarDeObtencion": "Existe solo en minerales a causa de su reactividad química",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoSamario.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/LpTkBg8HpvY\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoSamario.jpg",
 		"ImagenAtomo": "atomoSamario.jpg",
 		"Color": "#FEAB85"
@@ -983,14 +983,14 @@
 		"MetodoObtencion": "No se encuentra información.",
 		"LugarDeObtencion": "Existe solo en minerales a causa de su reactividad química",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoEuropio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/88YOmg_FUVo\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoEuropio.jpg",
 		"ImagenAtomo": "atomoEuropio.jpg",
 		"Color": "#FEAB85"
 	},
 	{
 		"Nombre": "Gadolinio",
-		"Simbolo": "Ga",
+		"Simbolo": "Gd",
 		"NumMasico": "157.25",
 		"NumAtomico": "64",
 		"Familia": "Lantánidos",
@@ -1005,7 +1005,7 @@
 		"MetodoObtencion": "No se tiene información.",
 		"LugarDeObtencion": "Existe solo en minerales a causa de su reactividad química",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoGadolinio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/uUo7pY38fGY\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoGadolinio.jpg",
 		"ImagenAtomo": "atomoGadolinio.jpg",
 		"Color": "#FEAB85"
@@ -1027,7 +1027,7 @@
 		"MetodoObtencion": "No se tiene información",
 		"LugarDeObtencion": "Existe solo en minerales a causa de su reactividad química",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoLantano.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/On5LjH9TQxY\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoTerbio.jpg",
 		"ImagenAtomo": "atomoTerbio.jpg",
 		"Color": "#FEAB85"
@@ -1049,7 +1049,7 @@
 		"MetodoObtencion": "No se tiene información",
 		"LugarDeObtencion": "Existe solo en minerales a causa de su reactividad química",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoDisprosio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/hFfR_qOSa-8\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoDisprosio.jpg",
 		"ImagenAtomo": "atomoDisprosio.jpg",
 		"Color": "#FEAB85"
@@ -1071,7 +1071,7 @@
 		"MetodoObtencion": "No se encuentra información.",
 		"LugarDeObtencion": "Existe solo en minerales a causa de su reactividad química",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoHolmio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/HQahtzCU0BU\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoHolmio.jpg",
 		"ImagenAtomo": "atomoHolmio.jpg",
 		"Color": "#FEAB85"
@@ -1093,7 +1093,7 @@
 		"MetodoObtencion": "Técnicas de producción basadas en el intercambio iónico ",
 		"LugarDeObtencion": "Existe solo en minerales a causa de su reactividad química",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoErbio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/E-DY_RT4fJ4\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoErbio.jpg",
 		"ImagenAtomo": "atomoErbio.jpg",
 		"Color": "#FEAB85"
