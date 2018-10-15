@@ -1492,7 +1492,7 @@
 		"Video": "videoLutecio.mp4",
 		"ImagenAspecto": "aspectoLutecio.jpg",
 		"ImagenAtomo": "atomoLutecio.jpg",
-		"Color": "#FEAB85"
+		"Color": "#D59792"
 	},
 	{
 		"Nombre": "Hafnio",
@@ -1690,7 +1690,7 @@
 		"Video": "videoCadmio.mp4",
 		"ImagenAspecto": "aspectoMercurio.jpg",
 		"ImagenAtomo": "atomoMercurio.jpg",
-		"Color": "#0ADFC4"
+		"Color": "#D59792"
 	},
 	{
 		"Nombre": "Talio",
@@ -2196,7 +2196,7 @@
 		"Video": "videoLantano.mp4",
 		"ImagenAspecto": "aspectoLawrencio.jpg",
 		"ImagenAtomo": "atomoLawrencio.jpg",
-		"Color": "#DBA8C9"
+		"Color": "#D59792"
 	},
 	{
 		"Nombre": "Rutherfordio",
@@ -2394,7 +2394,7 @@
 		"Video": "videoCadmio.mp4",
 		"ImagenAspecto": "aspectoCopernicio.jpg",
 		"ImagenAtomo": "atomoCopernicio.jpg",
-		"Color": "#0ADFC4"
+		"Color": "#D59792"
 	},
 	{
 		"Nombre": "Nihonio",
@@ -2416,7 +2416,7 @@
 		"Video": "videoIndio.mp4",
 		"ImagenAspecto": "aspectoNihonio.jpg",
 		"ImagenAtomo": "atomoNihonio.jpg",
-		"Color": "#0ADFC4"
+		"Color": "#C8C8C8"
 	},
 	{
 		"Nombre": "Flerovio",
@@ -2438,7 +2438,7 @@
 		"Video": "videoIndio.mp4",
 		"ImagenAspecto": "aspectoFlerovio.jpg",
 		"ImagenAtomo": "atomoFlerovio.jpg",
-		"Color": "#0ADFC4"
+		"Color": "#C8C8C8"
 	},
 	{
 		"Nombre": "Moscovio",
@@ -2460,7 +2460,7 @@
 		"Video": "videoIndio.mp4",
 		"ImagenAspecto": "aspectoMoscovio.jpg",
 		"ImagenAtomo": "atomoMoscovio.jpg",
-		"Color": "#0ADFC4"
+		"Color": "#C8C8C8"
 	},
 	{
 		"Nombre": "Livermorio",
@@ -2482,7 +2482,7 @@
 		"Video": "videoIndio.mp4",
 		"ImagenAspecto": "aspectoLivermorio.jpg",
 		"ImagenAtomo": "atomoLivermorio.jpg",
-		"Color": "#0ADFC4"
+		"Color": "#C8C8C8"
 	},
 	{
 		"Nombre": "Teneso",
@@ -2504,7 +2504,7 @@
 		"Video": "videoXenon.mp4",
 		"ImagenAspecto": "aspectoTeneso.jpg",
 		"ImagenAtomo": "atomoTeneso.jpg",
-		"Color":"#A895FB"
+		"Color":"#C8C8C8"
 	},
 	{
 		"Nombre": "Oganeson",
@@ -2526,7 +2526,7 @@
 		"Video": "videoXenon.mp4",
 		"ImagenAspecto": "aspectoRadon.jpg",
 		"ImagenAtomo": "atomoRadon.jpg",
-		"Color":"#95E2F8"
+		"Color":"#C8C8C8"
 	},
 	{
 		"Nombre": "Rubidio",
