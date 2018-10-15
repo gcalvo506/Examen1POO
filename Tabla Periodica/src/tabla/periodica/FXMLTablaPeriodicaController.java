@@ -142,14 +142,24 @@ public class FXMLTablaPeriodicaController implements Initializable {
         engine.loadContent("<html><body>" + elemento.getMultimedia().getVideoElemento() + "</body></html>");
         
 
-        
+        imagenAspecto_imageView.setImage(null);
         InputStream rutaImagenAspecto = this.getClass().getResourceAsStream("res/" + elemento.getMultimedia().getImagenAspecto());
-        Image imagenAspecto = new Image(rutaImagenAspecto);
-        imagenAspecto_imageView.setImage(imagenAspecto);
+        if(rutaImagenAspecto != null){
+            Image imagenAspecto = new Image(rutaImagenAspecto);
+            imagenAspecto_imageView.setImage(imagenAspecto);
+        } else {
+            System.err.println("Imagen de aspecto no encontrada");
+        }
         
+        imagenAtomo_imageView.setImage(null);
         InputStream rutaImagenAtomo = this.getClass().getResourceAsStream("res/" + elemento.getMultimedia().getImagenAtomo());
-        Image imagenAtomo = new Image(rutaImagenAtomo);
-        imagenAtomo_imageView.setImage(imagenAtomo);
+        if(rutaImagenAspecto != null){
+            Image imagenAtomo = new Image(rutaImagenAtomo);
+            imagenAtomo_imageView.setImage(imagenAtomo);
+        } else {
+            System.err.println("Imagen de atomo no encontrada");
+        }
+        
         
         
         
