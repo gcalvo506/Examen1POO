@@ -3,6 +3,7 @@
 <?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXComboBox?>
 <?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Rectangle2D?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -186,10 +187,14 @@
                </font>
             </Label>
             <Label fx:id="usos_label" alignment="TOP_LEFT" layoutX="56.0" layoutY="706.0" prefWidth="785.0" text="es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de" wrapText="true" />
-            <ImageView fx:id="imagenAspecto_imageView" fitHeight="228.0" fitWidth="282.0" layoutX="944.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="imagenAtomo_imageView" fitHeight="228.0" fitWidth="282.0" layoutX="944.0" layoutY="558.0" pickOnBounds="true" preserveRatio="true" />
-            <Label alignment="CENTER" layoutX="952.0" layoutY="514.0" prefHeight="16.0" prefWidth="266.0" text="Aspecto del elemento" />
-            <Label alignment="CENTER" layoutX="952.0" layoutY="794.0" prefHeight="16.0" prefWidth="266.0" text="Aspecto del elemento" />
+            <ImageView fx:id="imagenAspecto_imageView" fitHeight="228.0" fitWidth="282.0" layoutX="944.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+            <ImageView fx:id="imagenAtomo_imageView" fitHeight="228.0" fitWidth="282.0" layoutX="944.0" layoutY="604.0" pickOnBounds="true" preserveRatio="true" />
+            <Label alignment="CENTER" layoutX="952.0" layoutY="572.0" prefHeight="16.0" prefWidth="266.0" text="Aspecto del elemento" visible="false" />
+            <Label alignment="CENTER" layoutX="952.0" layoutY="840.0" prefHeight="16.0" prefWidth="266.0" text="Aspecto del elemento" visible="false" />
          </children>
       </Pane>
    </children>

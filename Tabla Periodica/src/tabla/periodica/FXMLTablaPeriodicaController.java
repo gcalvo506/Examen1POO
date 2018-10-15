@@ -6,6 +6,7 @@
 package tabla.periodica;
 
 import com.jfoenix.controls.JFXComboBox;
+import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
@@ -16,6 +17,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.ColumnConstraints;
@@ -138,6 +140,16 @@ public class FXMLTablaPeriodicaController implements Initializable {
         usos_label.setText(usos);
         
         engine.loadContent("<html><body>" + elemento.getMultimedia().getVideoElemento() + "</body></html>");
+        
+
+        
+        InputStream rutaImagenAspecto = this.getClass().getResourceAsStream("res/" + elemento.getMultimedia().getImagenAspecto());
+        Image imagenAspecto = new Image(rutaImagenAspecto);
+        imagenAspecto_imageView.setImage(imagenAspecto);
+        
+        InputStream rutaImagenAtomo = this.getClass().getResourceAsStream("res/" + elemento.getMultimedia().getImagenAtomo());
+        Image imagenAtomo = new Image(rutaImagenAtomo);
+        imagenAtomo_imageView.setImage(imagenAtomo);
         
         
         

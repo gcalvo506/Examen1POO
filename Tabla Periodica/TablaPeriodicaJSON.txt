@@ -15,9 +15,9 @@
 		"MetodoObtencion": "La producción de hidrógeno se realiza mediante diversos métodos que requieren la separación del hidrógeno de otros elementos químicos, como el carbono y el oxígeno.",
 		"LugarDeObtencion": "Aunque los átomos de hidrógeno y las moléculas diatómicas de hidrógeno abundan en el espacio interestelar, son difíciles de generar, concentrar y purificar en la Tierra. El hidrógeno es el decimoquinto elemento más abundante en la superficie terrestre. La mayor parte del hidrógeno terrestre se encuentra formando parte de compuestos químicos tales como los hidrocarburos o el agua.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/P9z1dRPmeUQ\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/6rdmpx39PRk\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoHidrogeno.jpg",
-		"ImagenAtomo": "atomoHidrogeno.jpg",
+		"ImagenAtomo": "atomoHidrogeno.png",
 		"Color":"#A68FFC"
 	},
 	{
