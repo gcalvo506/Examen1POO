@@ -433,7 +433,7 @@
 		"MetodoObtencion": "El metal se aísla por electróisis del cloruro de calcio.",
 		"LugarDeObtencion": "Es el quinto elemento en abundancia en la corteza terrestre (3,6 % en peso) pero no se encuentra solo sino formando compuestos con gran interés industrial como los carbonatos y el sulfato.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoCalcio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/V9fuY8_ffFg\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoCalcio.jpg",
 		"ImagenAtomo": "atomoCalcio.jpg",
 		"Color":"#FDE38F"
@@ -455,7 +455,7 @@
 		"MetodoObtencion": "El metal se obtiene industrialmente por reducción del fluoruro de escandio con calcio.",
 		"LugarDeObtencion": "Las únicas fuentes concentradas conocidas del metal son minerales poco abundantes de Escandinavia y Madagascar.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoEscandio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/KkKv5ilmRjY\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoEscandio.jpg",
 		"ImagenAtomo": "atomoEscandio.jpg",
 		"Color": "#D59792"
@@ -477,7 +477,7 @@
 		"MetodoObtencion": "Para extraer el titanio puro se usa generalmente el Método de Kroll, que consiste en obtener el tetracloruro de titanio por cloración a 800C",
 		"LugarDeObtencion": "Es el noveno elemento y séptimo metal más abundante en la corteza terrestre, suponiendo un 0,63 % de su masa.? Está presente en la mayoría de rocas ígneas y sedimentarias.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoTitanio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/MpFTQYynrc4\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoTitanio.jpg",
 		"ImagenAtomo": "atomoTitanio.jpg",
 		"Color": "#D59792"
@@ -499,7 +499,7 @@
 		"MetodoObtencion": "Si se quiere obtener vanadio más puro, se emplea el método Van Arkel-de Boer, que consta de la formación de un compuesto volátil y su posterior descomposición.",
 		"LugarDeObtencion": "El vanadio no se encuentra nunca en estado nativo, pero está presente en unos 65 minerales diferentes, entre los que destacan la patronita,? vanadinita y la carnotita; también se encuentra en la bauxita",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoVanadio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/MbCmaQzrZoc\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoVanadio.jpg",
 		"ImagenAtomo": "atomoVanadio.jpg",
 		"Color": "#D59792"
@@ -521,7 +521,7 @@
 		"MetodoObtencion": "El cromo puro se obtiene por reducción del óxido de cromo con aluminio.",
 		"LugarDeObtencion": "Aproximadamente la mitad de las cromitas se extraen de Sudáfrica. También se obtienen en grandes cantidades en Kazajistán, India y Turquía",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoCromo.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/9NPjdDS11C4\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoCromo.jpg",
 		"ImagenAtomo": "atomoCromo.jpg",
 		"Color": "#D59792"
@@ -543,7 +543,7 @@
 		"MetodoObtencion": "El metal se obtiene por reducción de los óxidos con aluminio",
 		"LugarDeObtencion": "Los países con mayores yacimientos de minerales de manganeso son Sudáfrica, Ucrania, Bolivia y China.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoManganeso.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/uTVtBuY9Q-0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoManganeso.jpg",
 		"ImagenAtomo": "atomoManganeso.jpg",
 		"Color": "#D59792"
@@ -565,7 +565,7 @@
 		"MetodoObtencion": "El hierro es el metal de transición más abundante en la corteza terrestre, y cuarto de todos los elementos. También existe en el Universo, habiéndose encontrado meteoritos que lo contienen.",
 		"LugarDeObtencion": "Se puede obtener hierro a partir de los óxidos con más o menos impurezas. Muchos de los minerales de hierro son óxidos, y los que no, se pueden oxidar para obtener los correspondientes óxidos.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoHierro.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/euQUgp5AY-Y\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoHierro.jpg",
 		"ImagenAtomo": "atomoHierro.jpg",
 		"Color": "#D59792"
@@ -587,7 +587,7 @@
 		"MetodoObtencion": "El cobalto también puede ser lixiviado de la escoria de la fundición de cobre.",
 		"LugarDeObtencion": "En 2005, los depósitos de cobre en la provincia de Katanga de la República Democrática del Congo fueron el principal productor de cobalto con casi el 40% cuota mundial.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoCobalto.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/MWtL3pvGC68\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoCobalto.jpg",
 		"ImagenAtomo": "atomoCobalto.jpg",
 		"Color": "#D59792"
@@ -609,7 +609,7 @@
 		"MetodoObtencion": "Concentración de minerales triturados, donde se separan los sulfuros por flotación.",
 		"LugarDeObtencion": "Las minas de Canadá, Cuba y Rusia producen hoy día el 70 % del níquel consumido. Otros productores mayores son Bolivia, Colombia, Nueva Caledonia provincia de ultramar de Francia y República Dominicana.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoNiquel.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/AUmoaZn9bek\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoNiquel.jpg",
 		"ImagenAtomo": "atomoNiquel.jpg",
 		"Color": "#D59792"
@@ -631,7 +631,7 @@
 		"MetodoObtencion": "Mediante un proceso priometalúrgico, que consta de: Fusión a mata, conversión de la mata, refinado reductor y refinado electrolítico.",
 		"LugarDeObtencion": "La producción mundial de cobre durante el 2014 alcanzó un total de 18.7 millones de toneladas métricas de cobre fino. El principal país productor es Chile, con casi un tercio del total, seguido por China y Perú",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoCobre.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/kop1sWzTK-I\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoCobre.jpg",
 		"ImagenAtomo": "atomoCobre.jpg",
 		"Color": "#D59792"
@@ -653,7 +653,7 @@
 		"MetodoObtencion": "Los minerales con altos contenidos de hierro se tratan por vía seca: primeramente se tuesta el concentrado para transformar el sulfuro en óxido, que recibe la denominación de calcina, y a continuación se reduce éste con el carbono contenido en el carbón.",
 		"LugarDeObtencion": "La producción mundial de zinc durante 2011 alcanzó un total de 12,40 millones de toneladas métricas. El principal país productor es China, seguido por Perú y Australia.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoZinc.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/99wPiMb-k0o\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoZinc.jpg",
 		"ImagenAtomo": "atomoZinc.jpg",
 		"Color": "#0ADFC4"
@@ -675,7 +675,7 @@
 		"MetodoObtencion": "Se obtiene como subproducto de procesos de obtención de otros metales.",
 		"LugarDeObtencion": "Se hallan trazas de este metal en minerales como la bauxita, carbón, diasporo, germanita y esfalerita.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoGalio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/N6ccRvKKwZQ\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoGalio.jpg",
 		"ImagenAtomo": "atomoGalio.jpg",
 		"Color": "#0ADFC4"
@@ -697,7 +697,7 @@
 		"MetodoObtencion": "La purificación del germanio pasa por su tetracloruro que puede ser destilado y luego es reducido al elemento con hidrógeno o con magnesio elemental.",
 		"LugarDeObtencion": "Se obtiene de yacimientos de plata, zinc y cobre. Los únicos minerales rentables para la extracción del germanio son la germanita y garnierita.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoGermanio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/osrKWVknkgs\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoGermanio.jpg",
 		"ImagenAtomo": "atomoGermanio.jpg",
 		"Color": "#0ADFC4"
@@ -719,7 +719,7 @@
 		"MetodoObtencion": "Se obtiene como subproducto de procesos de obtención de otros metales.",
 		"LugarDeObtencion": "Mayoritariamente se extrae en Chile,Perú,Filipinas y Canadá.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoArsenico.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/a2AbKwAvyos\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoArsenico.jpg",
 		"ImagenAtomo": "atomoArsenico.jpg",
 		"Color":"#A895FB"
@@ -741,7 +741,7 @@
 		"MetodoObtencion": "Primeramente se añade un aglomerante de cenizas de sosa y agua a los lodos para formar una pasta dura que se extruye o corta en pastillas para proceder a su secado.",
 		"LugarDeObtencion": "El selenio se encuentra muy distribuido en la corteza terrestre en la mayoría de las rocas y suelos se halla en concentraciones entre 0,1 y 2,0 ppm.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoSelenio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/IHrUtKjcAFE\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoSelenio.jpg",
 		"ImagenAtomo": "atomoSelenio.jpg",
 		"Color":"#A895FB"
@@ -763,7 +763,7 @@
 		"MetodoObtencion": "Se obtiene a partir de las salmueras, mediante la oxidación del bromuro con cloro.",
 		"LugarDeObtencion": "La mayor parte del bromo se encuentra en el mar en forma de bromuro.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoBromo.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/Slt3_5upuSs\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoBromo.jpg",
 		"ImagenAtomo": "atomoBromo.jpg",
 		"Color":"#A895FB"
