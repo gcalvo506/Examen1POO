@@ -23,7 +23,7 @@ public abstract class Manager {
     private static ArrayList<Elemento> listaElementos = new ArrayList();
     
     static{
-        cargarElementos();
+        //cargarElementos();
     }
 
     public static ArrayList<Elemento> getListaElementos() {

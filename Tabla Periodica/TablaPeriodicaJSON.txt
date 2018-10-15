@@ -2875,6 +2875,7 @@
 		"MetodoObtencion":"No se tiene información.",
 		"LugarDeObtencion": "No se tiene información.",
 		"FormaPolimorfica": "No Presenta",
+		"Video": "videoXenon.mp4",
 		"ImagenAspecto": "aspectoTeneso.jpg",
 		"ImagenAtomo": "atomoTeneso.jpg",
 		"Color":"#A895FB"
