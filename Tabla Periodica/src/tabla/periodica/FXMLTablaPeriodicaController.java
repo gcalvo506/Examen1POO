@@ -190,6 +190,8 @@ public class FXMLTablaPeriodicaController implements Initializable {
         tabla_gridPane.setVgap(0);
         
         String colorPorDefecto = "#f4f4f4";
+        boolean terminoOrdenamientoAtomico = false;
+        boolean elemento88Listo = false;
         
         int cantElementos = Manager.getListaElementos().size();
         int numeroElementoActual = 0;
@@ -206,7 +208,11 @@ public class FXMLTablaPeriodicaController implements Initializable {
                         elemento = new ContenedorElemento("", "", "", colorPorDefecto, null);
                     } else if ((i == 1 || i == 2) && (j > 1 && j < 12)){
                         elemento = new ContenedorElemento("", "", "", colorPorDefecto, null);
-                    } else {
+                    } else if((i == 7) && (j == 14 || j == 15 || j == 16 || j == 17 ) && ordenamientoComboBox.getValue().equals("Número atómico")){
+                        elemento = new ContenedorElemento("", "", "", colorPorDefecto, null);
+                    } 
+                    else {
+                        
                         String numeroAtomico = String.valueOf(Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getNumeroAtomico());
                         String simbolo = Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getSimbolo();
                         String nombre = Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getNombre();
@@ -215,6 +221,8 @@ public class FXMLTablaPeriodicaController implements Initializable {
                         elemento = new ContenedorElemento(numeroAtomico, simbolo, nombre, color,Manager.getListaElementos().get(numeroElementoActual));
                         elemento.setOnMouseClicked(e -> abrirVentanaInfo(e));
                         numeroElementoActual++;
+                        
+                        
                     }
 
                 }else{
@@ -227,6 +235,23 @@ public class FXMLTablaPeriodicaController implements Initializable {
 
                 GridPane.setConstraints(elemento, j, i);
                 tabla_gridPane.getChildren().add(elemento);
+                
+                if((numeroElementoActual == 56) && (ordenamientoComboBox.getValue().equals("Número atómico"))){
+                    numeroElementoActual += 14;
+                } else if((numeroElementoActual == 88) && (ordenamientoComboBox.getValue().equals("Número atómico")) && !elemento88Listo){
+                    numeroElementoActual += 14;
+                    elemento88Listo = true;
+                } else if((numeroElementoActual == 118) && (ordenamientoComboBox.getValue().equals("Número atómico")) && !terminoOrdenamientoAtomico){
+                    numeroElementoActual -= 62;
+                } else if((numeroElementoActual == 70) && (ordenamientoComboBox.getValue().equals("Número atómico"))){
+                    numeroElementoActual += 18;
+                } else if((numeroElementoActual == 102) && (ordenamientoComboBox.getValue().equals("Número atómico"))){
+                    numeroElementoActual = cantElementos;
+                    terminoOrdenamientoAtomico = true;
+                }
+                
+                
+                
             }
         }
     }
