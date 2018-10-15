@@ -7,6 +7,7 @@ package tabla.periodica;
 
 import com.jfoenix.controls.JFXComboBox;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -15,12 +16,14 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.RowConstraints;
+import javafx.scene.web.WebView;
 
 /**
  *
@@ -36,6 +39,44 @@ public class FXMLTablaPeriodicaController implements Initializable {
     private Pane informacion_pane;
     @FXML
     private Pane tablaElementos_pane;
+    @FXML
+    private Label nombreElemento_label;
+    @FXML
+    private WebView videoWebview;
+    @FXML
+    private Label simbolo_label;
+    @FXML
+    private Label numeroMasico_label;
+    @FXML
+    private Label numeroAtomico_label;
+    @FXML
+    private Label familia_label;
+    @FXML
+    private Label grupo_label;
+    @FXML
+    private Label periodo_label;
+    @FXML
+    private Label bloque_label;
+    @FXML
+    private Label puntoFusion_label;
+    @FXML
+    private Label puntoEbullision_label;
+    @FXML
+    private Label isotopo_label;
+    @FXML
+    private Label metodoObtencion_label;
+    @FXML
+    private Label lugarObtencion_label;
+    @FXML
+    private Label usos_label;
+    @FXML
+    private ImageView imagenAspecto_imageView;
+    @FXML
+    private ImageView imagenAtomo_imageView;
+    @FXML
+    private Label reseniaHistorica_label;
+    @FXML
+    private Label formaPolimorfica_label;
 
     
     @Override
@@ -60,12 +101,46 @@ public class FXMLTablaPeriodicaController implements Initializable {
         
         ContenedorElemento contenedor = (ContenedorElemento) event.getSource();
         Elemento elemento = contenedor.getElemento();
-        System.out.println("Se presionó " + elemento.getPropiedadesQuimicas().getNombre());
+        
         
         // Llenar los campos de información de la ventana con los de el elemento seleccionado
+        nombreElemento_label.setText(elemento.getPropiedadesQuimicas().getNombre());
+        simbolo_label.setText(elemento.getPropiedadesQuimicas().getSimbolo());
+        numeroMasico_label.setText(String.valueOf(elemento.getPropiedadesQuimicas().getNumeroMasico()));
+        numeroAtomico_label.setText(String.valueOf(elemento.getPropiedadesQuimicas().getNumeroAtomico()));
+        familia_label.setText(elemento.getPropiedadesQuimicas().getFamilia());
+        grupo_label.setText(String.valueOf(elemento.getPropiedadesQuimicas().getGrupo()));
+        periodo_label.setText(String.valueOf(elemento.getPropiedadesQuimicas().getPeriodo()));
+        bloque_label.setText(elemento.getPropiedadesQuimicas().getBloque());
+        puntoFusion_label.setText(String.valueOf(elemento.getPropiedadesQuimicas().getPuntoFusion()) + "°C");
+        formaPolimorfica_label.setText(elemento.getDatos().getProduccion().getFormaPolimorfica());
+        puntoEbullision_label.setText(String.valueOf(elemento.getPropiedadesQuimicas().getPuntoEbullicion()) + "°C");
+        reseniaHistorica_label.setText(elemento.getDatos().getResenaHistorica());
+        
+        if(elemento.getDatos().isIsIsotopo()){
+            isotopo_label.setText("Sí");
+        } else {
+            isotopo_label.setText("No");
+        }
+        
+        metodoObtencion_label.setText(elemento.getDatos().getProduccion().getMetodoObtencion());
+        lugarObtencion_label.setText(elemento.getDatos().getProduccion().getLugarDeObtencion());
+        
+        ArrayList<String> listaUsos = elemento.getDatos().getListaUsos();
+        String usos = "";
+        for(String uso : listaUsos){
+            usos += uso + "\n\n";
+        }
+        
+        usos_label.setText(usos);
+        
+        
+        
+        
         
     }
     
+    @FXML
     public void abrirVentanaTabla(){
         informacion_pane.toBack();
         informacion_pane.setVisible(false);
