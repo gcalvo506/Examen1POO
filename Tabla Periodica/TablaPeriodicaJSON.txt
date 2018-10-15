@@ -235,7 +235,7 @@
 		"MetodoObtencion": "Actualmente se obtiene por electrólisis de cloruro sódico fundido (proceso Downs), procedimiento más económico que el anteriormente usado, la electrólisis del hidróxido de sodio.",
 		"LugarDeObtencion": "El sodio es relativamente abundante en las estrellas, detectándose su presencia a través de la línea D del espectro solar, situada aproximadamente en el amarillo. La corteza terrestre contiene aproximadamente un 2,6 % de sodio, lo que lo convierte en el sexto elemento más abundante.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoSodio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/7IT2I3LtlNE\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoSodio.jpg",
 		"ImagenAtomo": "atomoSodio.jpg",
 		"Color":"#FEC58E"
@@ -257,7 +257,7 @@
 		"MetodoObtencion": "Se obtiene principalmente por electrólisis del cloruro de magnesio",
 		"LugarDeObtencion": "El magnesio es el séptimo elemento más abundante en la corteza terrestre, sin embargo no se encuentra libre, aunque entra en la composición de más de 60 minerales, siendo los más importantes industrialmente los depósitos de dolomía, dolomita, magnesita, brucita, carnalita y olivino.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoMagnesio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/FKkWdizutxI\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoMagnesio.jpg",
 		"ImagenAtomo": "atomoMagnesio.jpg",
 		"Color":"#FDE38F"
@@ -279,7 +279,7 @@
 		"MetodoObtencion": "Se extrae de las menas de alúmina previamente hidratada, la cual es una roca sedimentaria que recibe el nombre de bauxita.",
 		"LugarDeObtencion": "Entre los principales países donde se extrae la bauxita están Brasil, Jamaica, Australia, Guinea, Vietnam, Estados Unidos, Rusia, Venezuela, entre otros.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoAluminio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/4AhZ8503WPs\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoAluminio.jpg",
 		"ImagenAtomo": "atomoAluminio.jpg",
 		"Color":"#0ADFC4"
@@ -301,7 +301,7 @@
 		"MetodoObtencion": "Se basa en la mayor solubilidad de las impurezas en el silicio líquido, de forma que éste se concentra en las últimas zonas solidificadas.",
 		"LugarDeObtencion": "Medido en peso, el silicio representa más de la cuarta parte de la corteza terrestre y es el segundo elemento más abundante por detrás del oxígeno. El silicio no se encuentra en estado nativo; arena, cuarzo, amatista, ágata, pedernal, ópalo y jaspe son algunos de los minerales en los que aparece.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoSilicio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/a2aWO5cL410\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoSilicio.jpg",
 		"ImagenAtomo": "atomoSilicio.jpg",
 		"Color":"#A895FB"
@@ -323,7 +323,7 @@
 		"MetodoObtencion": "Se calienta en un horno a 1450 °C en presencia de sílice y carbono reduciendo el fósforo que se libera en forma de vapor.",
 		"LugarDeObtencion": "Debido a su reactividad, el fósforo no se encuentra nativo en la naturaleza, pero forma parte de numerosos minerales. La apatita es una importante fuente de fósforo, existiendo importantes yacimientos en Marruecos, Rusia, Estados Unidos y otros países.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoFosforo.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/LSYLUat03A4\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoFosforo.jpg",
 		"ImagenAtomo": "atomoFosforo.jpg",
 		"Color":"#A895FB"
@@ -345,7 +345,7 @@
 		"MetodoObtencion": "Se extrae mediante el proceso Frasch consistente en inyectar vapor de agua sobrecalentado para fundir el azufre que posteriormente es bombeado al exterior utilizando aire comprimido.",
 		"LugarDeObtencion": "El azufre es un elemento muy abundante en la corteza terrestre.En forma nativa se encuentra en las cercanías de aguas termales, zonas volcánicas y en minas de cinabrio, galena, esfalerita y estibina.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoAzufre.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/mGMR72X8V-U\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoAzufre.jpg",
 		"ImagenAtomo": "atomoAzufre.jpg",
 		"Color":"#A895FB"
@@ -367,7 +367,7 @@
 		"MetodoObtencion": "Se obtiene por electrólisis en el proceso de preparación de los álcalis y se expande en forma líquida, no es puro; y por lo tanto, ha de purificarse.",
 		"LugarDeObtencion": "El cloro se encuentra en la naturaleza combinado con otros elementos formando principalmente sales iónicas.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoCloro.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/BXCfBl4rmh0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoCloro.jpg",
 		"ImagenAtomo": "atomoCloro.jpg",
 		"Color":"#A895FB"
@@ -389,7 +389,7 @@
 		"MetodoObtencion": "El gas se obtiene por medio de la destilación fraccionada del aire licuado",
 		"LugarDeObtencion": "Se encuentra en el aire de la atmósfera terrestre en una proporción del 0.94%",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoArgon.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/N0Gw6-xMLlo\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoArgon.jpg",
 		"ImagenAtomo": "atomoArgon.jpg",
 		"Color":"#95E2F8"
@@ -411,7 +411,7 @@
 		"MetodoObtencion": "El metal se obtiene por electrólisis de su hidróxido.",
 		"LugarDeObtencion": "El potasio constituye del orden del 2,4 % en peso de la corteza terrestre siendo el séptimo más abundante. La principal mena de potasio es la potasa, que se extrae en California, Alemania, Nuevo México, Utah y en Saskatchewan.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoPotasio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/pPdevJTGAYY\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoPotasio.jpg",
 		"ImagenAtomo": "atomoPotasio.jpg",
 		"Color":"#FEC58E"
