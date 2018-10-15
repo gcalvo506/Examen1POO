@@ -15,10 +15,10 @@ import javafx.scene.layout.VBox;
  */
 public class ContenedorElemento extends VBox {
     
-    Label nombreLabel;
-    Label simboloLabel;
-    Label numeroAtomicoLabel;
-    Elemento elemento;
+    private Label nombreLabel;
+    private Label simboloLabel;
+    private Label numeroAtomicoLabel;
+    private Elemento elemento;
     
     public ContenedorElemento(String numeroAtomico, String simbolo, String nombre, String color, Elemento elemento){
         super();
