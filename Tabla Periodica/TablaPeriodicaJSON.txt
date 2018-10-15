@@ -486,8 +486,13 @@
 		"Nombre": "Vanadio",
 		"Simbolo": "V",
 		"NumMasico": "50.9415",
+<<<<<<< Updated upstream
 		"NumAtomico": "21",
 		"Familia": "Transicion",
+=======
+		"NumAtomico": "23",
+		"Familia": "Transición",
+>>>>>>> Stashed changes
 		"Grupo": "5",
 		"Periodo": "4",
 		"Bloque": "d",
@@ -2884,7 +2889,7 @@
 		"Nombre": "Oganeson",
 		"Simbolo": "Og",
 		"NumMasico": "22",
-		"NumAtomico": "294",
+		"NumAtomico": "118",
 		"Familia": "Gases Nobles",
 		"Grupo": "18",
 		"Periodo": "7",
