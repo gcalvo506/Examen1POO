@@ -194,7 +194,7 @@
 		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/vtWp45Eewtw\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoFluor.jpg",
 		"ImagenAtomo": "atomoFluor.jpg",
-		"Color":"#A895FB"
+		"Color":"#D55CA3"
 	},
 	{
 		"Nombre": "Neon",
@@ -304,7 +304,7 @@
 		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/a2aWO5cL410\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoSilicio.jpg",
 		"ImagenAtomo": "atomoSilicio.jpg",
-		"Color":"#A895FB"
+		"Color":"#98FFA5"
 	},
 	{
 		"Nombre": "Fosforo",
@@ -370,7 +370,7 @@
 		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/BXCfBl4rmh0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoCloro.jpg",
 		"ImagenAtomo": "atomoCloro.jpg",
-		"Color":"#A895FB"
+		"Color":"#D55CA3"
 	},
 	{
 		"Nombre": "Argon",
@@ -656,7 +656,7 @@
 		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/99wPiMb-k0o\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoZinc.jpg",
 		"ImagenAtomo": "atomoZinc.jpg",
-		"Color": "#0ADFC4"
+		"Color": "#D59792"
 	},
 	{
 		"Nombre": "Galio",
@@ -700,7 +700,7 @@
 		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/osrKWVknkgs\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoGermanio.jpg",
 		"ImagenAtomo": "atomoGermanio.jpg",
-		"Color": "#0ADFC4"
+		"Color": "#98FFA5"
 	},
 	{
 		"Nombre": "Arsenico",
@@ -722,7 +722,7 @@
 		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/a2AbKwAvyos\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoArsenico.jpg",
 		"ImagenAtomo": "atomoArsenico.jpg",
-		"Color":"#A895FB"
+		"Color":"#98FFA5"
 	},
 	{
 		"Nombre": "Selenio",
@@ -766,7 +766,7 @@
 		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/Slt3_5upuSs\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoBromo.jpg",
 		"ImagenAtomo": "atomoBromo.jpg",
-		"Color":"#A895FB"
+		"Color":"#D55CA3"
 	},
 	{
 		"Nombre": "Kripton",
@@ -986,7 +986,7 @@
 		"Video": "videoCadmio.mp4",
 		"ImagenAspecto": "aspectoCadmio.jpg",
 		"ImagenAtomo": "atomoCadmio.jpg",
-		"Color": "#0ADFC4"
+		"Color": "#D59792"
 	},
 	{
 		"Nombre": "Indio",
@@ -1052,7 +1052,7 @@
 		"Video": "videoAmoniaco.mp4",
 		"ImagenAspecto": "aspectoAmoniaco.jpg",
 		"ImagenAtomo": "atomoAmoniaco.jpg",
-		"Color": "#0ADFC4"
+		"Color": "#98FFA5"
 	},
 	{
 		"Nombre": "Telurio",
@@ -1074,7 +1074,7 @@
 		"Video": "videoTelurio.mp4",
 		"ImagenAspecto": "aspectoTelurio.jpg",
 		"ImagenAtomo": "atomoTelurio.jpg",
-		"Color":"#A895FB"
+		"Color":"#98FFA5"
 	},
 	{
 		"Nombre": "Yodo",
@@ -1096,7 +1096,7 @@
 		"Video": "videoYodo.mp4",
 		"ImagenAspecto": "aspectoYodo.jpg",
 		"ImagenAtomo": "atomoYodo.jpg",
-		"Color":"#A895FB"
+		"Color":"#D55CA3"
 	},
 	{
 		"Nombre": "Xenon",
@@ -1778,7 +1778,7 @@
 		"Video": "videoTelurio.mp4",
 		"ImagenAspecto": "aspectoPolonio.jpg",
 		"ImagenAtomo": "atomoPolonio.jpg",
-		"Color": "#0ADFC4"
+		"Color": "#98FFA5"
 	},
 	{
 		"Nombre": "astato",
@@ -1800,7 +1800,7 @@
 		"Video": "videoYodo.mp4",
 		"ImagenAspecto": "aspectoAstato.jpg",
 		"ImagenAtomo": "atomoAstato.jpg",
-		"Color":"#A895FB"
+		"Color":"#D55CA3"
 	},
 	{
 		"Nombre": "Radon",
