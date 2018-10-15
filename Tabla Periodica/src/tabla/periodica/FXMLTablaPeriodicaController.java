@@ -23,6 +23,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.RowConstraints;
+import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
 
 /**
@@ -77,6 +78,8 @@ public class FXMLTablaPeriodicaController implements Initializable {
     private Label reseniaHistorica_label;
     @FXML
     private Label formaPolimorfica_label;
+    
+    private WebEngine engine;
 
     
     @Override
@@ -86,7 +89,7 @@ public class FXMLTablaPeriodicaController implements Initializable {
         Manager.ordenarListaPorNumeroAtomico();
         cargarTablaElementos();
         abrirVentanaTabla();
-        
+        engine = videoWebview.getEngine();
         
     }
 
@@ -134,7 +137,7 @@ public class FXMLTablaPeriodicaController implements Initializable {
         
         usos_label.setText(usos);
         
-        
+        engine.loadContent("<html><body>" + elemento.getMultimedia().getVideoElemento() + "</body></html>");
         
         
         

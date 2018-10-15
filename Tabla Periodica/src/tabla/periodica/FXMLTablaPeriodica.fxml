@@ -81,7 +81,7 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </JFXButton>
-            <WebView fx:id="videoWebview" layoutX="936.0" layoutY="40.0" prefHeight="200.0" prefWidth="282.0" />
+            <WebView fx:id="videoWebview" layoutX="729.0" layoutY="40.0" prefHeight="270.0" prefWidth="465.0" />
             <Label layoutX="56.0" layoutY="105.0" text="Propiedades químicas">
                <font>
                   <Font name="System Bold" size="14.0" />
