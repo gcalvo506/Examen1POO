@@ -18,10 +18,11 @@ public class ContenedorElemento extends VBox {
     Label nombreLabel;
     Label simboloLabel;
     Label numeroAtomicoLabel;
+    Elemento elemento;
     
-    public ContenedorElemento(String numeroAtomico, String simbolo, String nombre, String color){
+    public ContenedorElemento(String numeroAtomico, String simbolo, String nombre, String color, Elemento elemento){
         super();
-        
+        this.elemento = elemento;
         double dimensiones = 65;
         
         double escalaNombre = 0.6;
@@ -72,4 +73,13 @@ public class ContenedorElemento extends VBox {
     public String getNumeroAtomico(){
         return numeroAtomicoLabel.getText();
     }
+
+    public Elemento getElemento() {
+        return elemento;
+    }
+
+    public void setElemento(Elemento elemento) {
+        this.elemento = elemento;
+    }
+    
 }

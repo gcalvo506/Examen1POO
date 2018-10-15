@@ -1,59 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXComboBox?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
 
 <AnchorPane id="AnchorPane" prefHeight="895.0" prefWidth="1264.0" stylesheets="@estilos.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tabla.periodica.FXMLTablaPeriodicaController">
    <children>
-      <Label alignment="CENTER" layoutX="292.0" layoutY="46.0" prefHeight="76.0" prefWidth="496.0" text="Tabla periódica de los elementos">
-         <font>
-            <Font name="System Bold" size="22.0" />
-         </font>
-      </Label>
-      <Label layoutX="81.0" layoutY="122.0" text="Ordenar por: ">
-         <font>
-            <Font size="14.0" />
-         </font>
-      </Label>
-      <JFXComboBox fx:id="ordenamientoComboBox" labelFloat="true" layoutX="193.0" layoutY="118.0" onAction="#ordenarElementosTabla" prefHeight="26.0" prefWidth="167.0" />
-      <GridPane fx:id="tabla_gridPane" layoutX="45.0" layoutY="167.0" prefHeight="650.0" prefWidth="1170.0">
-        <columnConstraints>
-          <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-        </columnConstraints>
-        <rowConstraints>
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-        </rowConstraints>
-      </GridPane>
+      <Pane fx:id="tablaElementos_pane" prefHeight="895.0" prefWidth="1264.0" visible="false">
+         <children>
+            <Label alignment="CENTER" layoutX="384.0" layoutY="37.0" prefHeight="76.0" prefWidth="496.0" text="Tabla periódica de los elementos">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="91.0" layoutY="138.0" text="Ordenar por: ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXComboBox fx:id="ordenamientoComboBox" labelFloat="true" layoutX="224.0" layoutY="134.0" onAction="#ordenarElementosTabla" prefHeight="26.0" prefWidth="167.0" />
+            <GridPane fx:id="tabla_gridPane" layoutX="47.0" layoutY="206.0" prefHeight="650.0" prefWidth="1170.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+         </children>
+      </Pane>
+      <Pane fx:id="informacion_pane" prefHeight="895.0" prefWidth="1264.0">
+         <children>
+            <Label fx:id="nombreElemento_label" alignment="CENTER" layoutX="-1.0" layoutY="53.0" prefHeight="25.0" prefWidth="1264.0" text="Elemento" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <JFXButton buttonType="RAISED" layoutX="39.0" layoutY="40.0" onAction="#abrirVentanaTabla" text="Volver">
+               <graphic>
+                  <FontAwesomeIconView glyphName="ARROW_LEFT" size="40" />
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <WebView fx:id="videoWebview" layoutX="936.0" layoutY="40.0" prefHeight="200.0" prefWidth="282.0" />
+            <Label layoutX="56.0" layoutY="105.0" text="Propiedades químicas">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <VBox layoutX="56.0" layoutY="128.0" prefWidth="575.0" spacing="3.0">
+               <children>
+                  <HBox prefWidth="200.0" spacing="15.0">
+                     <children>
+                        <Label text="Símbolo:" />
+                        <Label fx:id="simbolo_label" layoutX="10.0" layoutY="10.0" text="valor" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="10.0" prefWidth="200.0" spacing="15.0">
+                     <children>
+                        <Label text="Número másico:" />
+                        <Label fx:id="numeroMasico_label" layoutX="10.0" layoutY="10.0" text="valor" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="26.0" prefWidth="200.0" spacing="15.0">
+                     <children>
+                        <Label text="Número atómico:" />
+                        <Label fx:id="numeroAtomico_label" layoutX="10.0" layoutY="10.0" text="valor" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="42.0" prefWidth="200.0" spacing="15.0">
+                     <children>
+                        <Label text="Familia:" />
+                        <Label fx:id="familia_label" layoutX="10.0" layoutY="10.0" text="valor" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="58.0" prefWidth="200.0" spacing="15.0">
+                     <children>
+                        <Label text="Grupo:" />
+                        <Label fx:id="grupo_label" layoutX="10.0" layoutY="10.0" text="valor" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="74.0" prefWidth="200.0" spacing="15.0">
+                     <children>
+                        <Label text="Periodo:" />
+                        <Label fx:id="periodo_label" layoutX="10.0" layoutY="10.0" text="valor" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="90.0" prefWidth="200.0" spacing="15.0">
+                     <children>
+                        <Label text="Bloque:" />
+                        <Label fx:id="bloque_label" layoutX="10.0" layoutY="10.0" text="valor" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="106.0" prefWidth="200.0" spacing="15.0">
+                     <children>
+                        <Label text="Punto de fusión:" />
+                        <Label fx:id="puntoFusion_label" layoutX="10.0" layoutY="10.0" text="valor" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="122.0" prefWidth="200.0" spacing="15.0">
+                     <children>
+                        <Label text="Punto de ebullisión:" />
+                        <Label fx:id="puntoEbullision_label" layoutX="10.0" layoutY="10.0" text="valor" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="10.0" layoutY="162.0" prefWidth="200.0" spacing="15.0">
+                     <children>
+                        <Label text="Es isótopo:" />
+                        <Label fx:id="isotopo_label" layoutX="10.0" layoutY="10.0" text="valor" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Label layoutX="56.0" layoutY="328.0" text="Reseña histórica">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="56.0" layoutY="352.0" prefWidth="796.0" text="ndar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas &quot;Letraset&quot;, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum." wrapText="true" />
+            <Label layoutX="56.0" layoutY="460.0" text="Producción">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="56.0" layoutY="483.0" text="Método de obtención">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="metodoObtencion_label" alignment="TOP_LEFT" layoutX="56.0" layoutY="504.0" prefWidth="785.0" text="es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de" wrapText="true" />
+            <Label layoutX="56.0" layoutY="560.0" text="Lugar de obtención">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="lugarObtencion_label" alignment="TOP_LEFT" layoutX="56.0" layoutY="584.0" prefWidth="785.0" text="es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de" wrapText="true" />
+            <Label layoutX="56.0" layoutY="645.0" text="Usos">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="usos_label" alignment="TOP_LEFT" layoutX="56.0" layoutY="672.0" prefWidth="785.0" text="es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de" wrapText="true" />
+            <ImageView fx:id="imagenAspecto_imageView" fitHeight="228.0" fitWidth="282.0" layoutX="944.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imagenAtomo_imageView" fitHeight="228.0" fitWidth="282.0" layoutX="944.0" layoutY="558.0" pickOnBounds="true" preserveRatio="true" />
+            <Label alignment="CENTER" layoutX="952.0" layoutY="514.0" prefHeight="16.0" prefWidth="266.0" text="Aspecto del elemento" />
+            <Label alignment="CENTER" layoutX="952.0" layoutY="794.0" prefHeight="16.0" prefWidth="266.0" text="Aspecto del elemento" />
+         </children>
+      </Pane>
    </children>
 </AnchorPane>

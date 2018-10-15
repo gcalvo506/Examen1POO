@@ -18,6 +18,7 @@ import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.Pane;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.RowConstraints;
 
@@ -31,6 +32,10 @@ public class FXMLTablaPeriodicaController implements Initializable {
     private JFXComboBox<String> ordenamientoComboBox;
     @FXML
     private GridPane tabla_gridPane;
+    @FXML
+    private Pane informacion_pane;
+    @FXML
+    private Pane tablaElementos_pane;
 
     
     @Override
@@ -39,6 +44,7 @@ public class FXMLTablaPeriodicaController implements Initializable {
         configurarOrdenamientoComboBox();
         Manager.ordenarListaPorNumeroAtomico();
         cargarTablaElementos();
+        abrirVentanaTabla();
         
         
     }
@@ -46,8 +52,26 @@ public class FXMLTablaPeriodicaController implements Initializable {
     public void abrirVentanaInfo(MouseEvent event){
         //Aqui va el código para abrir la ventana
         
-        ContenedorElemento elemento = (ContenedorElemento) event.getSource();
-        System.out.println("Se presionó " + elemento.getNumeroAtomico());
+        tablaElementos_pane.toBack();
+        tablaElementos_pane.setVisible(false);
+        
+        informacion_pane.toFront();
+        informacion_pane.setVisible(true);
+        
+        ContenedorElemento contenedor = (ContenedorElemento) event.getSource();
+        Elemento elemento = contenedor.getElemento();
+        System.out.println("Se presionó " + elemento.getPropiedadesQuimicas().getNombre());
+        
+        // Llenar los campos de información de la ventana con los de el elemento seleccionado
+        
+    }
+    
+    public void abrirVentanaTabla(){
+        informacion_pane.toBack();
+        informacion_pane.setVisible(false);
+        
+        tablaElementos_pane.toFront();
+        tablaElementos_pane.setVisible(true);
     }
     
     public void configurarOrdenamientoComboBox(){
@@ -79,30 +103,22 @@ public class FXMLTablaPeriodicaController implements Initializable {
                 if(numeroElementoActual < cantElementos){
                     
                     if(i == 0 && (j > 0 && j < 17)){
-                        elemento = new ContenedorElemento("", "", "", colorPorDefecto);
+                        elemento = new ContenedorElemento("", "", "", colorPorDefecto, null);
                     } else if ((i == 1 || i == 2) && (j > 1 && j < 12)){
-                        elemento = new ContenedorElemento("", "", "", colorPorDefecto);
+                        elemento = new ContenedorElemento("", "", "", colorPorDefecto, null);
                     } else {
                         String numeroAtomico = String.valueOf(Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getNumeroAtomico());
                         String simbolo = Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getSimbolo();
                         String nombre = Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getNombre();
                         String color = Manager.getListaElementos().get(numeroElementoActual).getColor();
 
-                        elemento = new ContenedorElemento(numeroAtomico, simbolo, nombre, color);
+                        elemento = new ContenedorElemento(numeroAtomico, simbolo, nombre, color,Manager.getListaElementos().get(numeroElementoActual));
                         elemento.setOnMouseClicked(e -> abrirVentanaInfo(e));
                         numeroElementoActual++;
                     }
-                    
-                    /*String numeroAtomico = String.valueOf(Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getNumeroAtomico());
-                    String simbolo = Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getSimbolo();
-                    String nombre = Manager.getListaElementos().get(numeroElementoActual).getPropiedadesQuimicas().getNombre();
-                    String color = Manager.getListaElementos().get(numeroElementoActual).getColor();
-                    
-                    elemento = new ContenedorElemento(numeroAtomico, simbolo, nombre, color);
-                    elemento.setOnMouseClicked(e -> abrirVentanaInfo(e));
-                    numeroElementoActual++;*/
+
                 }else{
-                    elemento = new ContenedorElemento("", "", "", colorPorDefecto);
+                    elemento = new ContenedorElemento("", "", "", colorPorDefecto, null);
                 }
                 
                 
