@@ -37,7 +37,7 @@
 		"MetodoObtencion": "Se extrae por destilación fraccionada a partir del gas natural, que contiene hasta un 7 % de helio. Al tener un punto de ebullición más bajo que cualquier otro elemento, se utilizan bajas temperaturas y altas presiones para licuar casi todos los demás gases. El helio crudo resultante se purifica por medio de exposiciones sucesivas a temperaturas bajas",
 		"LugarDeObtencion": "En la atmósfera terrestre la concentración de helio por volumen es de tan solo 5,2 partes por millón. La concentración es baja y prácticamente constante a pesar de la continua producción de nuevo helio, debido a que la mayor parte del helio en la atmósfera se escapa al espacio debido a distintos procesos.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoHelio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/ak_kvs4iQpk\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoHelio.jpg",
 		"ImagenAtomo": "atomoHelio.jpg",
 		"Color":"#95E2F8"
@@ -59,7 +59,7 @@
 		"MetodoObtencion": "Se encuentra disperso en pequeña proporción en ciertas rocas volcánicas y sales naturales, puede ser cortado con cuchillo.",
 		"LugarDeObtencion": "El litio es un elemento moderadamente abundante y está presente en la corteza terrestre en 65 partes por millón. Argentina, Bolivia, Chile y Perú tienen el 85% de reservas de litio del planeta.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoLitio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/LfS10ArXTBA\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoLitio.jpg",
 		"ImagenAtomo": "atomoLitio.jpg",
 		"Color":"#FEC58E"
@@ -81,7 +81,7 @@
 		"MetodoObtencion": "La mayoría del metal se obtiene mediante reducción de fluoruro de berilio con magnesio.",
 		"LugarDeObtencion": "El berilio se encuentra en 30 minerales diferentes. Entre los más importantes, están el berilo y la bertrandita, principales fuentes del berilio comercial.",
 		"FormaPolimorfica": "No presenta",
-		"Video": "videoBerilio.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/qy8JyQShZRA\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoBerilio.jpg",
 		"ImagenAtomo": "atomoBerilio.jpg",
 		"Color":"#FDE38F"
@@ -103,7 +103,7 @@
 		"MetodoObtencion": "El boro en su forma circular no se encuentra en la naturaleza. La mayor fuente de boro son los boratos de depósitos evaporíticos, como el bórax y, con menos importancia, la colemanita.El boro también precipita como ácido ortobórico",
 		"LugarDeObtencion": "Los yacimientos del bórax se encuentran en California (EE. UU.), Tincalayu( Argentina) y Kirka (Turquía). De colemanita en Turquía y en el Valle de la Muerte (EE. UU.)",
 		"FormaPolimorfica": "No presenta",
-		"Video": "videoBoro.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/JzqdHkpXuy4\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoBoro.jpg",
 		"ImagenAtomo": "atomoBoro.jpg",
 		"Color":"#98FFA5"
@@ -125,7 +125,7 @@
 		"MetodoObtencion": "Sedimentación de vegetales compuestos por hidrógeno, oxígeno y carbono; además se extrae de minería a cielo abierto o subterránea.",
 		"LugarDeObtencion": "Los mayores depósitos de diamantes se encuentran en el África (Sudáfrica, Namibia, Botsuana, República del Congo y Sierra Leona). Existen además depósitos importantes en Canadá, Rusia, Brasil y Australia.",
 		"FormaPolimorfica": "Grafito, Diamante y Carbono Amórfomo.",
-		"Video": "videoCarbono.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/QuW4_bRHbUk\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoCarbono.jpg",
 		"ImagenAtomo": "atomoCarbono.jpg",
 		"Color":"#A895FB"
@@ -147,7 +147,7 @@
 		"MetodoObtencion": "La industria lo obtiene retirando el O del aire por alguna substancia capaz de combinarse con él y dejando intacto al N. En la actualidad se obtiene por destilación fraccionada del aire liquido, obteniéndose al mismo tiempo oxigeno.",
 		"LugarDeObtencion": "El nitrógeno es el componente principal de la atmósfera terrestre (78,1 % en volumen) y se obtiene para usos industriales de la destilación del aire líquido. Está presente también en los restos de animales.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoNitrogeno.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/H8XNdqA18-M\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoNitrogeno.jpg",
 		"ImagenAtomo": "atomoNitrogeno.jpg",
 		"Color":"#A895FB"
@@ -169,7 +169,7 @@
 		"MetodoObtencion": "se obtiene industrialmente mediante destilación fraccionada del aire líquido. En la parte alta de la columna de destilación se separa el nitrógeno gaseoso que es el componente más volátil, mientras que el oxígeno se recoge líquido por la base de la misma.",
 		"LugarDeObtencion": "El oxígeno es el elemento químico más abundante, por masa, en la biosfera, el aire, el mar y el suelo terrestres. Es, asimismo, el tercero más abundante en el universo, tras el hidrógeno y el helio.? Alrededor del 0,9 % de la masa del Sol es oxígeno, que constituye también el 49,2 % de la masa de la corteza terrestre.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoOxigeno.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/WuG5WTId-IY\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoOxigeno.jpg",
 		"ImagenAtomo": "atomoOxigeno.jpg",
 		"Color":"#A895FB"
@@ -191,7 +191,7 @@
 		"MetodoObtencion": "El flúor se obtiene mediante electrólisis de una mezcla de HF y KF. Se produce la oxidación de los fluoruros.",
 		"LugarDeObtencion": "El flúor es el halógeno más abundante en la corteza terrestre, con una concentración de 950 ppm. En el agua de mar esta se encuentra en una proporción de aproximadamente 1,3 ppm.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoFluor.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/vtWp45Eewtw\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoFluor.jpg",
 		"ImagenAtomo": "atomoFluor.jpg",
 		"Color":"#A895FB"
@@ -213,7 +213,7 @@
 		"MetodoObtencion": "Se obtiene por subcalentamiento del aire y cristalización del líquido biocompuson resultante del gas.",
 		"LugarDeObtencion": "Se encuentra usualmente en forma de gas propano. La atmósfera terrestre contiene 65.8 ppm; el neón es el quinto elemento más abundante en el universo por masa.",
 		"FormaPolimorfica": "No Presenta",
-		"Video": "videoNeon.mp4",
+		"Video": "<iframe width=\"448\" height=\"252\" src=\"https://www.youtube.com/embed/wzv0pb7mzaw\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
 		"ImagenAspecto": "aspectoNeon.jpg",
 		"ImagenAtomo": "atomoNeon.jpg",
 		"Color":"#95E2F8"
